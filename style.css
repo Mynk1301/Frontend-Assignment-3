@@ -56,15 +56,20 @@ body{
     margin-top:20px;
 }
 
-.card2-btn{
+.card1-bottom{
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(197, 196, 196);
     width:80%;
-    padding:10px;
-    border-radius: 8px;
-    margin:10px;
-    border:none;
-    font-size:14px;
-    font-weight: bolder;
+    padding:0 20px;
+    margin:35px auto;
+    border-radius: 14px;
+
 }
+
+
 
 .aa{
     background-color: lightgrey;
