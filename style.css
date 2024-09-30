@@ -56,17 +56,43 @@ body{
     margin-top:20px;
 }
 
-.card1-bottom{
+.card1-bottom {
     box-sizing: border-box;
     display:flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: rgb(197, 196, 196);
+    justify-content: space-between;
+    background-color: lightgrey;
     width:80%;
     padding:0 20px;
     margin:35px auto;
     border-radius: 14px;
 
+}
+.card1-bottom-1{
+    display:flex;
+    align-items: center;
+    flex-direction: start;
+    gap:20px;
+}
+
+.card2-bottom {
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgrey;
+    width:80%;
+    padding:0 20px;
+    margin:35px auto;
+    border-radius: 14px;
+
+}
+
+.card2-bottom-1{
+    display:flex;
+    align-items: center;
+    flex-direction: start;
+    gap:20px;
 }
 
 
@@ -109,9 +135,18 @@ body{
     color:black;
     font-size: 14px;
     border:none;
-    padding:15px;
     border-radius:5px;
     margin:10px 10px 10px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card3-btn-ab-1{
+    display:flex;
+    gap:20px;
+    align-items: center;
+
 }
 .ab{
     background-color: lightgrey;
@@ -121,6 +156,13 @@ body{
 .bc{
  background-color: white;
  font-weight: bold;
+
+}
+
+.card3-btn-bc-1{
+    display:flex;
+    gap:20px;
+    align-items:center;
 }
 
 .card3-bottom{
